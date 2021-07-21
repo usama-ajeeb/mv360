@@ -1,0 +1,28 @@
+.field.has-addons {
+  height: 40px;
+  background: $white;
+  border-radius: $radius;
+  box-shadow: 0 2px 5px -6px black;
+  border:  1px solid $lightGrey;
+  width: min-content;
+  
+  .button {
+    background: transparent;
+    border: 0px solid $lightGrey;
+    padding: $base-space / 2 $base-space;
+    height: auto;
+     }
+  .is-active {
+    background: $dark;
+    border-left: 1px solid $grey;
+    border-right: 1px solid $grey;
+    &:first-child {
+      border-radius: $radius 0px 0px $radius;
+      border-left: 1px solid;
+    }
+    &:last-child {
+      border-radius: 0px $radius $radius 0px;
+      border-right: 1px solid;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+$modal-background-background-color: rgba(255, 255, 255, 0.3);
+$modal-card-head-background-color: $dark;
+$modal-card-body-background-color: $dark;
+$modal-card-head-border-bottom: 1px solid $grey;
+$modal-content-width: 328px;
+$modal-card-head-padding: 15px;
+$modal-card-foot-border-top: 0px solid !important;
+
+.modal {
+  border-radius: $radius;
+
+  .modal-card-head {
+    height: 45px;
+  }
+
+  .close-btn {
+    position: absolute !important;
+    right: $base-space;
+  }
+
+  .left-btn {
+    position: absolute !important;
+    left: $base-space;
+  }
+
+  .border-bottom-none {
+    border-bottom: 0px solid !important;
+  }
+}

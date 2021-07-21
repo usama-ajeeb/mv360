@@ -1,0 +1,44 @@
+$dropdown-content-background-color: $dark;
+$dropdown-content-background-color: $dark;
+$dropdown-item-hover-background-color: $brown;
+$dropdown-item-hover-color: $white;
+$dropdown-divider-background-color: $white;
+$dropdown-item-active-color: $dark;
+$dropdown-content-shadow: $white;
+$dropdown-item-active-background-color: $brown;
+
+.dropdown-btn {
+  width: 25px;
+  border-radius: 0px $radius $radius 0px !important;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+}
+
+.pb-btn {
+  border-radius: $radius 0px 0px $radius !important;
+}
+
+.dropdown-menu {
+  border: 1px solid $white;
+  border-radius: $radius;
+  button {
+    background-color: $dark;
+    border: 0px solid;
+    outline: none;
+    border-radius: $radius;
+    height: 40px;
+  }
+  button:hover {
+    cursor: pointer;
+  }
+}
+.dropdown-content {
+  .dropdown-item {
+    font-size: $size-6;
+    cursor: pointer;
+    &:hover {
+      background: $grey;
+    }
+  }
+}
+

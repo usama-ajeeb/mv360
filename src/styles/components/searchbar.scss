@@ -1,0 +1,32 @@
+$input-border-color: $white;
+$input-hover-border-color: $white;
+$input-focus-border-color: $white;
+$input-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+$input-icon-color: $lightGrey;
+$input-icon-active-color: $dark;
+
+.btn-box-shadow {
+  padding-top: 1.2rem !important;
+  padding-bottom: 1.2rem !important;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1) !important;
+  &:focus {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1) !important;
+  }
+  &:active {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1) !important;
+  }
+}
+
+.search-bar {
+  &-container {
+    input {
+      height: 40px;
+      padding-top: 0px;
+      &::placeholder {
+        color: $dark;
+        font-weight: 500;
+        letter-spacing: 0.01rem;
+      }
+    }
+  }
+}

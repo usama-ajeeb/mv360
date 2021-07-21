@@ -1,0 +1,174 @@
+html,
+body,
+#root,
+.is-full-height {
+  height: 100%;
+}
+
+html,
+body,
+#root,
+.is-full-width {
+  width: 100%;
+}
+
+button:focus {
+  box-shadow: none !important;
+}
+.tabs {
+  margin-bottom: 0 !important;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+button {
+  cursor: pointer !important;
+}
+
+.is-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.is-letter-spaced {
+  letter-spacing: 1;
+}
+
+.is-letter-spaced-5 {
+  letter-spacing: -0.5 !important;
+}
+
+.has-bottom-border {
+  border-bottom: 1px solid $lightGrey !important;
+}
+
+.has-top-border {
+  border-top: 1px solid $grey !important;
+}
+
+.has-border-right {
+  border-right: 1px solid $grey !important;
+}
+.has-border-left {
+  border-left: 1px solid $grey !important;
+}
+
+.mw-600 {
+  max-width: 600px;
+}
+
+.minwidth-100 {
+  min-width: 100px !important;
+}
+
+.has-white-border {
+  border: 2px solid $dark !important;
+}
+
+.has-border-radius-0 {
+  border-radius: 0px !important;
+}
+.has-border-radius-5 {
+  border-radius: 5px !important;
+}
+
+.has-border-none {
+  border: none !important;
+}
+
+.has-border-width-3 {
+  border: 3px $primary solid !important;
+}
+
+.number {
+  align-items: auto;
+  background-color: transparent;
+  border-radius: 0;
+  display: block;
+  font-size: 1rem;
+  height: auto;
+  justify-content: flex-start;
+  margin-right: 0;
+  min-width: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.is-right {
+  right: 0;
+}
+
+.m-h1 {
+  font-family: $family-primary;
+  font-size: 4.688rem !important;
+  letter-spacing: 4.5px !important;
+}
+
+.mw-100 {
+  min-width: 100px;
+}
+
+.min-content {
+  width: min-content;
+}
+
+.has-dashed-border {
+  border: 1px dashed $primary;
+}
+
+.is-absolute {
+  position: absolute;
+}
+
+.is-uploaded {
+  position: absolute;
+  top: 22;
+  left: 40;
+}
+
+.has-padding-left-none {
+  padding-left: 0px !important;
+}
+
+.is-pointer {
+  cursor: pointer !important;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.ls-1 {
+  letter-spacing: 0.01rem;
+}
+
+.ls-2 {
+  letter-spacing: 0.05rem;
+}
+
+@for $i from 1 through 1000 {
+  .w-#{$i} {
+    width: #{$i}px !important;
+  }
+  .h-#{$i} {
+    height: #{$i}px !important;
+  }
+}
+
+.hide_scrollbar {
+  overflow: hidden !important;
+}
+
+
+.mr-block-center {
+  margin-left: calc(50% - 37rem);
+  margin-right: calc(50% - 37rem);
+}
+
+.fav-icon{ pointer-events: all; cursor:pointer }

@@ -1,0 +1,66 @@
+// $tabs-border-bottom-width: 0px;
+// $tabs-link-color: $white;
+// $tabs-link-active-color: $white;
+// $tabs-boxed-link-radius: 0px;
+// $tabs-boxed-link-active-background-color: $dark;
+// .elem-lay-tab {
+//   li {
+//     a {
+//       height: 35px !important;
+//       background: $grey !important;
+//     }
+//   }
+//   .is-active {
+//     a {
+//       background: $primary !important;
+//       border-top: 1px solid $grey !important;
+//       border-left: 1px solid $grey !important;
+//     }
+//   }
+// }
+// .tabs {
+//   li {
+//     i {
+//       font-size: 18px;
+//     }
+//     a {
+//       height: 40px;
+//       background-color: $primary;
+//       border: 0px solid !important;
+//       border-right: 1px solid $grey !important;
+//       border-bottom: 1px solid $grey !important;
+//       padding: 0;
+//     }
+
+//     &.is-active {
+//       a {
+//         border-bottom: 0px solid $grey;
+//       }
+//     }
+//   }
+//   &.frames {
+//     li {
+//       min-width: 120px;
+//       a {
+//         font-weight: bold;
+//         font-size: $size-7;
+//         justify-content: flex-start;
+//         padding-left: $base-space;
+//       }
+//       &:last-child {
+//         flex: 1;
+//         a {
+//           padding-left: $base-space * 2;
+//           background: transparent;
+//           i {
+//             font-size: $size-7;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+// .tabs li:last-child a {
+//   border-right: 0px solid !important;
+// }

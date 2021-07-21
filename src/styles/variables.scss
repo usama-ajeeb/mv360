@@ -1,0 +1,50 @@
+// Custom Colors
+$brown: #424242;
+$grey: #5a6e69;
+$darkGrey: #5a696e;
+$lightGrey: #e3e9eb;
+$dimWhite: #f3f6f7;
+$black: #2b2d35;
+$yellow: #fdc63d;
+$red: #990000;
+$green: #58c42b;
+$blue: #0032fc;
+$lightBlue: #0764b1;
+$skyBlue: #0088cc;
+
+// Bulma Overrides
+$primary: $blue;
+$info: $skyBlue;
+$success: $green;
+$warning: $yellow;
+$danger: $red;
+$light: $lightGrey;
+$dark: $darkGrey;
+
+$background: $white;
+$border: $lightGrey;
+$border-hover: $blue;
+
+$text-light: $white;
+$text-strong: $white;
+
+$family-primary: "Barlow Semi Condensed", sans-serif;
+$family-secondary: "Source Sans Pro", "Arial", sans-serif;
+
+$size-7: 0.75rem;
+$size-6: 0.875rem;
+$size-5: 1rem;
+$size-4: 1.2rem;
+$size-3: 1.5rem;
+$size-2: 1.7rem;
+$size-1: 2rem;
+
+// body Overrides
+$body-background-color: $white;
+$body-size: $size-5;
+$body-font-size: $size-5;
+$small-font-size: $size-7;
+
+// Custom
+$base-space: 8px;
+// $component-height: 30px;

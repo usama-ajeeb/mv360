@@ -1,0 +1,80 @@
+.txt-area-opts {
+  main {
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 0px #0000001a;
+  }
+  &-toolbar {
+    border: none !important;
+    margin-bottom: 0px !important;
+  }
+  &-wrapper {
+    line-height: 1.25rem;
+  }
+  &-editor {
+    color: $dark;
+    padding-left: $size-6;
+    padding-right: $size-6;
+  }
+  &-link {
+    color: $dark;
+    border: none;
+  }
+  &-textAlign {
+    border-right: 2px solid $light !important;
+    // .txt-align-left {
+    //   img {
+    //     display: none;
+    //   }
+    //   &::after {
+    //     content: "\f036";
+    //     font-family: "Font Awesome 5";
+    //     // font-weight: 900;
+    //   }
+    // }
+  }
+  &-font {
+    border: 0px !important;
+    color: $dark !important;
+    a {
+      color: #3d5a9a !important;
+    }
+    &:hover,
+    &:active {
+      box-shadow: none !important;
+    }
+  }
+  &-fontWeight {
+    border-right: 2px solid $light !important;
+    border-left: 2px solid $light !important;
+    .txt-underline {
+      img {
+        border-bottom: 1px solid #3d5a9a;
+      }
+    }
+  }
+  .rdw-option-wrapper {
+    border: none;
+    padding: 0px;
+    &:hover,
+    &:active {
+      box-shadow: none !important;
+    }
+  }
+  .rdw-dropdown-carettoopen {
+    border-top: 4px solid #3d5a9a;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+  }
+  .rdw-dropdown-carettoclose {
+    border-bottom: 4px solid #3d5a9a;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+  }
+  .rdw-option-active {
+    background: #e4effb8a;
+    box-shadow: none !important;
+  }
+  .public-DraftStyleDefault-block {
+    margin: 0.5rem 0;
+  }
+}

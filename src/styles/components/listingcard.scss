@@ -1,0 +1,53 @@
+.listing-card {
+  border-radius: 6px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+  header {
+    border-radius: 6px 6px 0px 0px;
+  }
+  &-tag {
+    border-radius: 2px;
+
+    p {
+      font-size: 0.625rem;
+    }
+  }
+  &-info-tag {
+    span {
+      height: 100%;
+    }
+    .info-name {
+      border-radius: 11.5px 0px 0px 11.5px;
+    }
+    .info-id {
+      border-radius: 11.5px 11.5px 11.5px 11.5px;
+      position: relative;
+      left: -8px;
+    }
+  }
+  &-join {
+    button {
+      border-radius: 6px;
+    }
+    &-img {
+      border-radius: 10px;
+      background: $dimWhite;
+    }
+  }
+  &-jd {
+    overflow: auto;
+    p {
+      color: $grey;
+      line-height: 20px;
+    }
+  }
+  footer {
+    p {
+      letter-spacing: 0.1rem;
+    }
+    button {
+      height: 34px;
+      width: 97px;
+      border-radius: 6px;
+    }
+  }
+}

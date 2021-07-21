@@ -1,0 +1,155 @@
+{
+  "sortOptions": [
+    {
+      "id": "createdAt",
+      "label": "By Date"
+    },
+    {
+      "id": "title",
+      "label": "By Title"
+    },
+    {
+      "id": "code",
+      "label": "By Code"
+    },
+    {
+      "id": "amount",
+      "label": "By Amount"
+    },
+    {
+      "id": "redeemed",
+      "label": "By Redeemed"
+    },
+    {
+      "id": "status",
+      "label": "Active"
+    }
+  ],
+  "testColumns": [
+    { "id": 10, "name": "title", "title": "Title", "locked": true, "active": true },
+    { "id": 20, "name": "code", "title": "Code", "locked": false, "active": true },
+    { "id": 30, "name": "amount", "title": "Amount", "locked": false, "active": true },
+    { "id": 40, "name": "type", "title": "Type", "locked": false, "active": true },
+    { "id": 50, "name": "redeemed", "title": "Redeemed", "locked": false, "active": true },
+    {
+      "id": 60,
+      "name": "lastPresented",
+      "title": "Last Presented",
+      "locked": false,
+      "active": false
+    },
+    { "id": 70, "name": "campaigns", "title": "Campaigns", "locked": false, "active": true },
+    { "id": 80, "name": "createdAt", "title": "Date Created", "locked": false, "active": true },
+    {
+      "id": 90,
+      "name": "customize",
+      "title": "Customize",
+      "locked": true,
+      "active": true,
+      "hidden": true
+    }
+  ],
+  "leftColumns": ["title"],
+  "rightColumns": ["customize"],
+  "columnExtensions": [
+    { "columnName": "title", "align": "left", "width": "220px" },
+    { "columnName": "customize", "align": "center", "width": "165px" }
+  ],
+  "uniqueSortOptions": [
+    {
+      "id": "title",
+      "label": "By Title"
+    },
+    {
+      "id": "prefix",
+      "label": "By Prefix"
+    },
+    {
+      "id": "amount",
+      "label": "By Amount"
+    },
+    {
+      "id": "redeemed",
+      "label": "By Redeemed"
+    },
+    {
+      "id": "campaigns",
+      "label": "By Campaigns"
+    },
+    {
+      "id": "codes",
+      "label": "By Codes"
+    }
+  ],
+  "uniqueColumns": [
+    { "id": 10, "name": "title", "title": "Title", "locked": true, "active": true },
+    { "id": 30, "name": "amount", "title": "Amount", "locked": false, "active": true },
+    { "id": 80, "name": "createdAt", "title": "Date Created", "locked": false, "active": true },
+    { "id": 50, "name": "redeemed", "title": "Redeemed", "locked": false, "active": true },
+    { "id": 70, "name": "campaigns", "title": "Campaigns", "locked": false, "active": true },
+    {
+      "id": 60,
+      "name": "lastPresented",
+      "title": "Last Presented",
+      "locked": false,
+      "active": true
+    },
+    { "id": 100, "name": "codes", "title": "Codes", "locked": false, "active": true },
+    { "id": 90, "name": "customize", "title": "Customize", "locked": true, "active": true }
+  ],
+  "leftUniqueColumns": ["title"],
+  "rightUniqueColumns": ["customize"],
+  "yesOrNoColumns": ["redeemed"],
+  "uniqueColumnExtensions": [
+    { "columnName": "title", "width": "220px", "align": "left" },
+    { "columnName": "customize", "align": "center", "width": "220px" },
+    { "columnName": "redeemed", "align": "center" },
+    { "columnName": "amount", "align": "center" },
+    { "columnName": "codes", "align": "center" },
+    { "columnName": "createdAt", "align": "center" },
+    { "columnName": "campaigns", "align": "center" },
+    { "columnName": "lastPresented", "align": "center" }
+  ],
+  "uniqueIndividualSortOptions": [
+    {
+      "id": "code",
+      "label": "By Code"
+    },
+    {
+      "id": "viewedAt",
+      "label": "By Presented Date"
+    },
+    {
+      "id": "dateCreated",
+      "label": "By Date"
+    },
+    {
+      "id": "amount",
+      "label": "By Amount"
+    },
+    {
+      "id": "redeemed",
+      "label": "By Redeemed"
+    }
+  ],
+  "uniqueIndividualColumns": [
+    { "id": 10, "name": "code", "title": "Code", "locked": true, "active": true },
+    { "id": 20, "name": "viewedAt", "title": "Presented", "locked": false, "active": true },
+    { "id": 30, "name": "dateCreated", "title": "Date Created", "locked": false, "active": true },
+    { "id": 50, "name": "redeemed", "title": "Redeemed", "locked": false, "active": true },
+    { "id": 80, "name": "orderTotal", "title": "Order Total", "locked": false, "active": true },
+    { "id": 70, "name": "discounted", "title": "Discounted", "locked": false, "active": true },
+    { "id": 90, "name": "delete", "title": "", "locked": true, "active": true }
+  ],
+  "leftUniqueIndividualColumns": ["code"],
+  "rightUniqueIndividualColumns": ["delete"],
+  "uniqueIndividualColumnExtensions": [
+    { "columnName": "code", "width": "320px", "align": "left" },
+    { "columnName": "delete", "align": "center", "width": "80px" },
+    { "columnName": "viewedAt", "align": "center" },
+    { "columnName": "dateCreated", "align": "center" },
+    { "columnName": "redeemed", "align": "center" },
+    { "columnName": "orderTotal", "align": "center" },
+    { "columnName": "discounted", "align": "center" }
+  ]
+}

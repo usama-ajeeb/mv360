@@ -1,0 +1,18 @@
+$button-color: $black;
+$button-background-color: $white;
+$button-border-color: $lightGrey;
+$button-hover-color: $primary;
+$button-text-color: $white;
+$button-ghost-background: $brown;
+$button-text-hover-background-color: $grey;
+$button-text-hover-color: $brown;
+$button-hover-border-color: $lightGrey;
+$button-focus-border-color: $lightGrey;
+$button-focus-color: $primary;
+$button-disabled-background-color: transparent;
+$button-disabled-border-color: transparent;
+$button-border-width:1px;
+
+.button{
+    height: 40px;
+}
